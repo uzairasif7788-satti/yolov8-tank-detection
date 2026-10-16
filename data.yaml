@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['tank']
+
+roboflow:
+  workspace: boats-qcnng
+  project: aerial-tanks
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/boats-qcnng/aerial-tanks/dataset/2
